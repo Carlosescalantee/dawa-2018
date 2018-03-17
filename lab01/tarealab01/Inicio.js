@@ -16,7 +16,7 @@ http.createServer(function(solicitud,respuesta){
 
 
 	}else
-	if (solicitud.url === '/Nosotros.html') {
+	if (solicitud.url === '/Nosotros.html') { 
 		fs.readFile('./Nosotros.html',function(error,html){
 		console.log('Conexion entrante');
 
