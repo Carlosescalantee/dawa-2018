@@ -1,0 +1,15 @@
+
+
+2.3
+No se ha declarado la variable arreglo_parametros.
+
+2.5
+
+Se repite dos veces ya que el for comienza en 1 y va a ir bajando hasta cero, es decir que se repitira 2 veces las cariables 1,0.
+•	arreglo_parametros: [ ‘nombre=batman’ ] x2
+•	parametros:  [ ‘nombre’ ] x2
+•	valores: [ ‘batman’ ] x2
+
+2.6 Se puede mostrar informacion agrupada, e informacion detallada de todo.
+
+3.3 muestra una larga lista de informacion detallada.
