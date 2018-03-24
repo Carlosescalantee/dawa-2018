@@ -2,6 +2,7 @@ var http = require('http'),
 fs = require('fs')
 parser = require('./parser_vars.js'),
 p = parser.parser_vars;
+datos = parser.batman;
 
 
 htpp.createServer(function(req, res){
@@ -16,6 +17,9 @@ htpp.createServer(function(req, res){
 			var html_string = html_string.replace('{'+parametros[i]+'}',valores[i]);
 
 		}
+
+		html_string = html_string.replace('{identidad}',datos['identidad']);
+		html_string = html_string.replace('{poder}',datos['poder']);
 
 		res.writeHead(200,{'Content-type':'text'});
 		res.write(html_string);

@@ -1,15 +1,38 @@
 
+ESCALANTE MENAUTH CARLOS GRUPO "A"
 
-2.3
-No se ha declarado la variable arreglo_parametros.
+-------------------------------------------------------------------------------------------------
 
-2.5
+2.3 --> El error nos indica que no se ha declarado la variable arreglo_parametros.(Imagen 1, 2)
 
-Se repite dos veces ya que el for comienza en 1 y va a ir bajando hasta cero, es decir que se repitira 2 veces las cariables 1,0.
-•	arreglo_parametros: [ ‘nombre=batman’ ] x2
-•	parametros:  [ ‘nombre’ ] x2
-•	valores: [ ‘batman’ ] x2
+2.5 --> Los valores que genera en la consola son:
+ 
+•	arreglo_parametros: [ ‘nombre=batman’ ]
+•	parametros:  [ ‘nombre’ ]
+•	valores: [ ‘batman’ ] (Imagen 5)
 
-2.6 Se puede mostrar informacion agrupada, e informacion detallada de todo.
+2.6 --> En esta parte guarda los valores que han usado la URL, los guarda en arreglos.
 
-3.3 muestra una larga lista de informacion detallada.
+3.4 --> Se mejoraria esta funcion asignando condiciones, y asi nos sirva para verificar que de verdad esta enviando algun valor o codigo.
+3.7 --> Imagen 7, 8
+3.8 --> Puede ser util cuando se almacenen datos, algo asi como caché, si alguien inicia sesion, y ya entro antes podria mostrar sugerencias.
+4.3 --> Imagen 9, 10
+5.3 --> Imagen 11
+5.5 --> Imagen 12
+5.9 --> Imagen 13
+6.6 --> Imagen 14
+
+TAREA:
+Pregunta 01 --> 
+Pregunta 02 --> Imagen 15
+Pregunta 03 --> node-inspector es un debug con interfaz gráfica, lo instalamos mediante npm.
+
+Observaciones y Conclusiones:
+
+• REPL nos proporciona una manera interactiva de ejecutar archivos javascript, y ver los resultados.
+• Se vio las principales caracteristicas de los modulos http de NODE.JS
+• Vimos que las variables se pueden almacenar en arreglos, y luego cambiar y devolver las variables. 
+• Vimos como manejar y manipular variables y funciones en NODE.JS
+• Los modulos http nos ayudan a crear servidores, y que a partir de ellos se acepten solicitudes de usuarios.
+• Todas las variables que se envian mediante URLs, se recogen mediante el parametro request.
+

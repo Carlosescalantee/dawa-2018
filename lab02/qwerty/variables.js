@@ -8,7 +8,7 @@ valores = [];
 
 
 http.createServer(function(req,res){
-	console.log(res);
+
 	fs.readFile('./form.html', function(err,html){
 		var html_string = html.toString();
 
