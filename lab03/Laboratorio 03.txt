@@ -1,0 +1,15 @@
+
+Carlos Escalante Menauth Grupo "A"
+
+-----------------------------------------------------------------------------
+
+2.1 --> (Imagen 01)
+3.2 --> (Imagen 02)
+3.4 --> (Imagen 03)
+4.2 --> (Imagen 04)
+4.4 --> (Imagen 05)
+4.7 --> (Imagen 06)Nos muestra los valores ingresados, pero en forma de una lista.
+.
+.
+.
+.
