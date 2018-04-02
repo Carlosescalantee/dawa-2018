@@ -1,0 +1,12 @@
+
+var express = require('express')
+var app = express()
+
+app.get('/', function (req, res){
+	res.send('Hola mundo!!! en Express :D')
+})
+
+
+app.listen(3000, function() {
+	console.log('Aplicacion de ejemplo escuchando en el puerto 3000!!!')
+});
