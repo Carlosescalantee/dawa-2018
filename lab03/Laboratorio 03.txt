@@ -5,11 +5,65 @@ Carlos Escalante Menauth Grupo "A"
 
 2.1 --> (Imagen 01)
 3.2 --> (Imagen 02)
-3.4 --> (Imagen 03)
-4.2 --> (Imagen 04)
-4.4 --> (Imagen 05)
-4.7 --> (Imagen 06)Nos muestra los valores ingresados, pero en forma de una lista.
-.
-.
-.
-.
+3.4 --> Nos describe todos los detalles del proyecto creado con npm. (Imagen 03)
+4.2 --> Instalo nuevos archivos, dentro de la carpeta underscore.(Imagen 04)
+4.4 --> Ahora underscore esta siendo usado en nuestro proyecto(aparte del que se instalo) (Imagen 05)
+4.7 --> Se utilizan funciones de underscore, les da una funcion a cada numero en el array, por ello imprime todos los elementos que tiene.(Imagen 06)
+4.8 --> (Imagen 07)
+4.10 --> (Imagen 08)
+4.12 --> Esta utilizando como un filtro para solo tomar los empleados que tengan 'SSE' e imprimirlos.(Imagen 09)
+5.5 --> Se podria utilizar para hacer mas entendible y funcional los codigos(Imagen 10)
+6.5 --> (Imagen 11)
+6.6 --> (Imagen 12)
+6.7 --> (Imagen 13 ,14 ,15)
+6.9 --> CODIGO
+var _ = require('escalantemenauth_tecsup');
+var palabra = "%Hola%";
+var reemplazos = {
+	"en":{
+	"Hola":"Hello"
+	} }
+var res = _.replace("%Hola%",reemplazos["en"]);
+console.log(res);
+7.1 --> Esta agregando la función addEventListener, que lo que hara es indicar cada vez que alguien haga click sobre el botón, no indicara que seleccionamos tal elemento.
+7.2 --> CODIGO NUMERO DE CLICKS EN UN ELEMENTO.
+    <head>
+        <title></title>
+        <script>
+        var i = 0
+        function clickLink() {
+            i++;
+            if (i == 1) {
+                document.getElementById("clicks").innerHTML = i;
+            }
+            else
+            {
+                document.getElementById("clicks").innerHTML = i;
+            }
+        }
+        </script>
+    </head>
+    <body>
+        <a href="javascript:clickLink();">Click aqui</a>
+        <p>Tu has presionado el elemento <span id="clicks">0</span> veces.</p>
+        
+    </body>
+7.3 --> Deberia imprimir el 1, luego de 1000 osea un segundo imprimer el 2, luego de 0s el 3, y el 4.(Imagen 16)
+7.5 --> Esa forma de utilizar if y else, nos ayuda a optimizar nuestro codigo.
+7.8 --> (Imagen 17)
+7.10 --> Este tipo de herencia nos permite dar atributos en comun a diferentes objetos, por partes.
+8.2 --> (Imagen 18)
+8.3 --> (Imagen 19)
+8.4 --> (Imagen 20)
+8.5 --> (Imagen 21)
+8.6 --> (Imagen 22, 23)
+8.7 --> (Imagen 24)
+
+Observaciones y Conclusiones:
+
+• Durante el desarrollo del laboratorio, vimos como instalar paquetes, dependencias con NPM.
+• Con NPM se puede importar un proyecto, algo asi como hacer una copia de nuestro proyecto en otro proyecto; inicialmente instalado utilizando NPM.
+• Nos familiarizamos mas a fondo con javascript, con ejemplos propuestos o desarrollados por nosostros mismos.
+• Entendimos, y aprendimos una nueva forma de optimizar codigo con las condicionales, if, else; una distinta sintaxis y forma de utilizarlo al agregar valores a una variable.
+• Trabajamos con distintos codigos javascript brindados por el docente, dandole una funcionalidad(añadiendo o modificando codigo) o interpretando los resultados del codigo.
+• Vimos algunas de las funciones de UNDERSCORE, este nos permite recorrer arrays, darle valor a cada elemento, buscar elementos en un array, etc.

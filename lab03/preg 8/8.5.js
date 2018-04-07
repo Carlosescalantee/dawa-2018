@@ -1,6 +1,36 @@
 
 (function() {
-	//
+	var MusicBox=function(){
+		var music=[];
+		return{
+			addAlbum:function(a){
+				music.push(a.album);
+			},
+			favoriteAlbum:function(){
+				var x;
+				for(var i=0;i<music.length-1;i++){
+					for(var j=1;j<music.length;j++){
+					if (music[i].c<music[j].c) {
+						x = music[i];
+						music[i]=music[j];
+						music[j]=x;
+					}
+				  }
+				}
+				return music[0].band+" - "+music[0].name;
+			}
+		}
+	};
+	var Album=function(band,name){
+		var album={band:band,name:name,c:0};
+		return{
+			album,
+			play:function(){
+				console.log("Estas tocando "+band+" - "+name);
+				album.c=album.c+1;
+			}
+		}
+	};
 
 	var box = MusicBox(),
 	a1 = Album("The Who", "Tommy"),

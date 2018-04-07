@@ -1,0 +1,22 @@
+<script type="text/javascript">
+	function primo()
+	{	var valor=parseInt(document.getElementById("valor").value);
+		var NumeroPrimo=true; 
+		for(i=1;i<valor;i++)
+		{			
+			if(valor/i == Math.round(valor/i) && i!=1 && i!=valor)
+			{
+				NumeroPrimo=false;
+				break;
+			}; }; 
+		if(NumeroPrimo)
+			document.getElementById("resultado").innerHTML="El numero "+valor+" es primo";
+		else
+			document.getElementById("resultado").innerHTML="El numero "+valor+" no es Primo"; }
+</script>
+<body>
+	<input type="text" id="valor" value="">
+<input type="button" onclick="primo()" value="Comprobar"> 
+<div id="resultado"></div>
+<body>
+	

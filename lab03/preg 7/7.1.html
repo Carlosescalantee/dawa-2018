@@ -1,18 +1,22 @@
 
-<html>
-<head>
-	<title></title>
-	<script type="text/javascript">
-
-		var nodes = document.getElementByTagName('button');
-for (var i = 0; i < nodes.length; i++) {
-	nodes[i].addEventListener('click', function(){
-		console.log('You clicked element #' + i);
-	});
-}
-	</script>
-</head>
-<body>
-
-</body>
-</html>
+    <head>
+        <title></title>
+        <script>
+        var i = 0
+        function clickLink() {
+            i++;
+            if (i == 1) {
+                document.getElementById("clicks").innerHTML = i;
+            }
+            else
+            {
+                document.getElementById("clicks").innerHTML = i;
+            }
+        }
+        </script>
+    </head>
+    <body>
+        <a href="javascript:clickLink();">Click aqui</a>
+        <p>Tu has presionado el elemento <span id="clicks">0</span> veces.</p>
+        
+    </body>
