@@ -23,7 +23,7 @@ ESCALANTE MENAUTH CARLOS GRUPO "A"
 6.6 --> Imagen 14
 
 TAREA:
-Pregunta 01 --> 
+Pregunta 01 --> Imagen CALCULADORA_TAREA
 Pregunta 02 --> Imagen 15
 Pregunta 03 --> node-inspector es un debug con interfaz gráfica, lo instalamos mediante npm.
 
