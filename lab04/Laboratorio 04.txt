@@ -11,6 +11,7 @@ Carlos Escalante Menauth Grupo "A"
 2.8 --> (Imagen 05)
 2.10 --> (Imagen 06)
 2.11 --> (Imagen 07)
+2.13 --> (Los cambios que se buscan son, ver como es que trabaja el servidor con una misma url ingresada, pero con diferentes metodos.
 2.18 --> (Imagen 08)
 2.19 --> (Imagen 09)
 2.21 --> (Imagen 10)
@@ -18,3 +19,12 @@ Carlos Escalante Menauth Grupo "A"
 2.25 --> (Imagen 12, Imagen 13)
 2.26 --> (Imagen 14, Imagen 15)
 
+3.1 --> Revisar carpeta landing_page
+
+Observaciones y Conclusiones:
+
+• Para trabajar con los middlewares del servidor, se utilizo la extension POSTMAN, proveida por nuestro navegador.
+• Logramos desarrollar una aplicacion web utilizando Express y sus paquetes.
+• Hay que ser bien cuidadoso a la hora de dar las direcciones estaticas, ya que express busca los datos en el orden declarado, 
+  esto produjo errores a la hora de crear la landing page con express.
+• Gracias a los middlewares podemos saber, ver y controlar los errores de los sitios web.
