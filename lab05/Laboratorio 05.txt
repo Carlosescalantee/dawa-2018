@@ -1,0 +1,29 @@
+
+Carlos Escalante Menauth Grupo "A"
+
+-----------------------------------------------------------------------------
+
+2.5 --> (Imagen 01)
+3.5 --> C app.post('/producto', producto.create); CREANDO PRODUCTO
+	R app.get('/producto', producto.show); MOSTRANDO PRODUCTOS
+	U app.post('/producto/update', producto.update); EDITANDO PRODUCTOS
+	D app.post('/producto/delete', producto.delete); ELIMINANDO PRODUCTOS
+3.9 --> (Imagen 02)
+3.10 --> (Imagen 03, Imagen 04, Imagen 05, Imagen 06)
+3.15 --> (Imagen 07)
+3.18 --> (Imagen 08, Imagen 09)
+3.19 --> Carpeta models/user.js
+3.20 --> CRUD de productos en la carpeta "crud_producto_ejercicio"
+
+TAREA:
+CRUD de 3 tablas en la carpeta Tarea05, y capturas del funcionamiento del CRUD en la carpeta "Capturas Tarea - CRUD de tres tablas"
+
+Observaciones y Conclusiones:
+
+• Aprendimos y entendimos como funciona y como crear un CRUD con Node.js, Jade y Moongose.
+• Implementamos correctamente, entendimos y aprendimos sobre mongoose, con mongoose logramos crear las funciones del CRUD.
+• Trabajamos con archivos .jade(vistas mucho mas accesibles.), lo cual es mas facil y rapido para trabajar, ya que no usa las etiquetas de los archivos html.
+• Al momento de crear los arreglos para nuestra base de datos MONGO, solo se indicaba todo desde codigo, no habia necesidad de configurar mongo, ni darle los campos manualmente, lo cual es muy ventajoso y eficaz.
+• Creamos funciones(show, create, update, delete), las cuales hacian referencia a los models, es decir hicimos operaciones para el CRUD sobre los modelos, 
+  y gracias a los modelos nos conectabamos con Mongo, ademas de conocer los datos que se recibian(mediante un Schema).
+
