@@ -1,0 +1,16 @@
+Carlos Escalante Menauth Grupo "A"
+
+-----------------------------------------------------------------------------
+
+Tarea:
+
+•Adjunta en components y capturas de pantalla en Capturas/Tarea Calculadora.
+
+
+Conclusiones:
+
+• En el desarrollo del laboratorio, aprendimos y vimos como es que trabaja React, tanto en su instalacion, configuracion para los estilos, a definir componentes, etc.
+• En React se implementa el metodo render(), el cual toma los datos, y devuelve lo que nos muestra.
+• Tambien podemos tomar datos de entrada, a traves de this."propiedad"
+• Logramos desarrollar una aplicacion(CALCULADORA), la definimos en el App.js, luego trabajamos en base al ejercicio realizado en el Laboratorio.
+• Con React podemos crear componentes encapsulados, uno a uno, y luego compilarlos para que tengamos interfaces muy complejas.

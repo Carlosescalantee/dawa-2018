@@ -1,0 +1,30 @@
+
+Carlos Escalante Menauth Grupo "A"
+
+-----------------------------------------------------------------------------
+
+1.2 --> (Imagen 01)
+1.7 --> (Imagen 02)
+2.5 --> (Imagen 03)
+2.7 --> (Imagen 04)
+2.12 --> (Imagen 05)
+2.13 --> (Imagen 06)
+2.14 --> (Imagen 07)
+3.5 --> Detecta que un usuario se ha conectado, por lo que va a mostrar la informacion de la base de datos al usuario.
+3.7 --> (Imagen 08)
+5.5 --> (Imagen 09)
+
+TAREA:
+
+ Carpeta Capturas Tarea
+• (Imagen 01)
+• (Imagen 02)
+• (Imagen 03)
+
+CONCLUSIONES:
+
+• En socket.io existe io.emmit, que va a servir para mandar señales a los usuarios que esten activos, y socket.emit, el cual solo trabaja con un solo usuario que se conecto.
+• Socket.IO nos permite una comunicacion entre 2 direcciones, en tiempo real, se reflejan los cambios que se hagan al mismo tiempo.
+• Socket.IO es una libreria de Javascript, este nos permite trabajar con aplicaciones web, y reflejar cambios al mismo tiempo en dos paginas.
+• Los Sockets se utilizan para poder trabajar con conexiones entre un servidor y los usuarios conectados.
+• Vimos que para poder realizar una conexion con la BD Mongo, creamos un modelo(EN ESTE CASO USER.JS), utilizando MONGOOSE, a partir de ese archivo podemos definir atributos, asi como acciones para estos.
