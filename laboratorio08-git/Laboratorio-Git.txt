@@ -1,0 +1,42 @@
+Carlos Escalante Menauth    Grupo "A"
+
+-----------------------------------------------------------------------------
+
+2.3 --> (Imagen 01)
+2.4 --> (Imagen 02)
+3.3 --> (Imagen 03)
+3.5 --> (Imagen 04)
+3.8 --> (Imagen 05)
+3.12 --> (Imagen 06)
+Primer commit --> (Imagen 07)
+4.3 --> (Imagen 08)
+4.4 --> (Imagen 09)
+4.7 --> (Imagen 10)
+Segundo commit con cambios --> (Imagen 11)
+5.1 --> (Imagen 12)
+5.5 --> (Imagen 13)
+Tercer commit con estilos adjuntos al html --> (Imagen 14)
+6.2 --> (Imagen 15)
+6.3 --> (Imagen 16)
+Cuarto commit con imagen gato --> (Imagen 17)
+6.6 --> (Imagen 18)
+Quinto commit con cambio de background --> (Imagen 19)
+6.12 --> (Imagen 20)
+Ultimo commit --> (Imagen 21)
+
+
+CONCLUSIONES:
+
+• Existen dos formas de adjuntar el contenido de nuestro proyecto, con nuestro repositorio
+  una es sincronizando el contenido del proyecto, con el repositorio y la otra es clonando nuestro repositorio,
+  mediante la URL este, esta segunda opcion es mucho mas simple.
+• Es necesario siempre hacer pull en un proyecto donde varios usuarios suben informacion, en caso no se hiciera un git pull, y agregamos un nuevo commit, 
+  entonces se perderia la informacion que ya se tenga en el repositorio en la nube, y sincronizaria a lo que otro usuario tenga, algo que suele suceder en un 
+  equipo de trabajo. 
+• Podemos clonar nuestro repositorio en una carpeta en especifico, basta con indicarle al final de comando el nombre de la carpeta,
+  y esta sera la carpeta contenedora del repositorio.
+• A traves de comandos en Git agregamos, y creamos commits y subimos los archivos de nuestro proyecto a un repositorio en la nube.
+• git pull nos ayuda a sincronizar el contenido de nuestro repositorio en caso de que algun usuario-colaborador hubiera hecho cambios en este,
+  de forma que el contenido que se tenga en la carpeta contenedora del proyecto, va a actualizarce igual que los archivos del repositorio en la nube.
+
+
