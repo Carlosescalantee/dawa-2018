@@ -1,0 +1,22 @@
+Carlos Escalante Menauth Grupo "A"
+
+-----------------------------------------------------------------------------
+
+OBSERVACIONES Y CONCLUSIONES:
+
+• Vimos, implementamos y trabajamos con una aplicacion React, por lo que entendimos el correcto funcionamiento de este.
+
+• React en si es una biblioteca o galeria de archivos, que esta hecho en Javascript para la creacion de vistas de usuario.
+
+• React nos ofrece ya todos los modulos, configuracion, rutas, etc, es decir que nos ofrece una estructura lista para que
+  nosostros empecemos a trabajar, algo asi como una plantilla.
+
+• La estructura de React esta basada en componentes para interfaces de usuario, por lo que al trabajar con estos, 
+  primero debemos importar la vista o componente, para luego recien poder llamar como clases o funciones a los componentes o vistas.
+
+• Vimos la sintaxis spread operator, la cual se basa en llamar una constante ya creada, e incluirla en un array, 
+  por ejemplo si en la constante "a" tenemos [Carlos, Escalante], y luego creamos una constante b, y dentro de ese array de la nueva constante
+  definimos =[...a, Menauth], se entenderia como b=[Carlos, Escalante, Menauth].
+
+• En React existen diversas formas de importar archivos para ser utilizados en la vista, basta con importar el nombre del archivo,
+  como dandole una variable, para luego llamarla en el codigo, ademas de declarar la direccion del archivo, y ya se podra trabajar. 
