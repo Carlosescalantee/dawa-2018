@@ -1,0 +1,23 @@
+Carlos Escalante Menauth Grupo "A"
+
+-----------------------------------------------------------------------------
+
+3.3 --> (Imagen 01)
+4.6 --> (Imagen 02), (Imagen 03)
+5.2 --> (Imagen 04)
+6.2 --> (Imagen 05)
+6.4 --> (Imagen 06)
+
+OBSERVACIONES Y CONCLUSIONES:
+
+• Ejecutamos nuestra aplicacion en un servidor real, utilizando el paquete npm serve, el cual no permite emular un servidor,
+  y poder correr nuestra aplicacion.
+• Gracias al comando npm run build  se crea una carpeta build, en la cual se encuentra una version mejorada y simplificada que 
+  funciona igual a nuestro proyecto, pero ahora es mucho mas facil y rapido para poder subirlo a servidores.
+• Con el componente Auxiliary que creamos, simplificamos el trabajo en el codigo a la hora de estar añadiendo etiquetas de las clases
+  y obviarlas en nuestros componentes.
+• Instalamos y utilizamos axios, lo cual nos sirvio para enviar y recepcionar informacion de los anuncios y mostrarla en nuestra aplicacion,
+  mediante metodos get y post.
+• En el desarrollo del laboratorio, logramos añadir funciones de axios, y poder obtener los anuncios que se tengan, 
+  ademas mediante metodos Post,   para que al momento de seleccionar un anuncio, nos muestre la informacion del item seleccionado
+  en la misma pantalla y añadimos un spinner con   sus estilos respectivos para la hora de cargar los anuncios se va mucho mejor.
