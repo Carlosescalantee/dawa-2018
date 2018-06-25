@@ -1,4 +1,5 @@
 const User = require('../models/user.js');
+const utils = require('../lib/utils.js');
 
 const exposedFields = [
 	'username',
@@ -6,8 +7,9 @@ const exposedFields = [
 	'email'
 ];
 
-module.exports = {	
+module.exports = {
 	signup: (req,res,next)=>{
+		console.log(req.body)
 		var user = new User({
 			...req.body
 		});
@@ -34,13 +36,12 @@ module.exports = {
 				});
 			});
 	},
-
-
 	signin: (req,res,next)=>{
 		User
 			.findOne({username: req.body.username})
 			.select(exposedFields.join(' ')+' password')
 			.exec((err, user) => {
+				console.log(err);
 				if (err) res.status(500).json(err);
 				if(!user){
 					return res.status(401).json({
@@ -63,12 +64,11 @@ module.exports = {
 						});
 					})
 					.catch(err=>{
+						console.log(err);
 						res.status(500).json(err);
 					});
 			});
 	},
-
-
 	refreshToken: (req,res,next)=>{
 		var token = req.body.token || req.query.token;
 		if (!token) {
@@ -94,8 +94,6 @@ module.exports = {
 				res.status(500).json(err);
 			});
 	},
-
-
 	verifyToken: (req,res,next)=>{
 		const token = req.headers['authorization'];
 		if (!token) res.status(401).json({
@@ -114,9 +112,6 @@ module.exports = {
 				});
 			});
 	},
-
-
-
 	create: (req,res,next)=>{
 		var user = new User({
 			...req.body
@@ -162,7 +157,7 @@ module.exports = {
 	},
 	findOne: (req,res,next) => {
 		const id = req.params.id;
-		Plan.findById(id)
+		User.findById(id)
 			.exec()
 			.then(doc => {
 				if (doc) {

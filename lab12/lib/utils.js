@@ -2,27 +2,22 @@ const jwt = require('jsonwebtoken');
 
 module.exports = {
 	generateToken: user => {
-
-
 		const u = {
 			_id: user._id,
 			name: user.name,
 			username: user.username,
 			email: user.email
 		};
-
 		return token = jwt.sign(u, "qwerty", {
 			expiresIn: 60 * 60 * 24
 		});
 	},
-
 	verifyToken: token => {
 		return new Promise((resolve,reject) => {
-			jwt.verify(token, "qwerty" (err,user)=> {
+			jwt.verify(token, "qwerty", (err,user)=> {
 				if (err) {
 					reject(err);
 				}
-				
 				resolve(user);
 			});
 		});
